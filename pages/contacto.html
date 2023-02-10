@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/custom.css">
+    <title>Besse Games | Contacto</title>
+    <link rel="shortcut icon" href="../assets/logosinfondo.png" type="image/x-icon">
+</head>
+<body class="p-background">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container me-lg-5">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="nosotros.html">Sobre Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="preguntas.html">Preguntas fecuentes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <h1 class="text-light text-center titulo-uno mt-5 mb-2">Contacto y reservas</h1>
+        <h3 class="text-light text-center titulo-dos mb-5 pb-5">Completá el formulario para que podamos contactarte</h3>
+        <div class="container btn-dark rounded mb-5 p-4 formulario my-5 py-5">
+            <form id="form" action="#" style="padding: 1.3rem 2rem;">
+                <div class="row mb-3">
+                  <label for="name" class="col-sm-2 col-form-label"> Nombre: </label>
+                  <div class="col-sm-10">
+                    <input type="text" class="form-control" id="name">
+                  </div>
+                </div>
+                <div class="row mb-3">
+                  <label for="surname" class="col-sm-2 col-form-label"> Apellido: </label>
+                  <div class="col-sm-10">
+                    <input type="text" class="form-control" id="surname">
+                  </div>
+                </div>
+                <div class="row mb-3">
+                  <label for="phone" class="col-sm-2 col-form-label"> Teléfono: </label>
+                  <div class="col-sm-10">
+                    <input type="text" class="form-control" id="phone">
+                  </div>
+                </div>
+                <div class="row mb-3">
+                  <label for="sala" class="col-sm-2 col-form-label"> Sala: </label>
+                  <div class="col-sm-10">
+                    <select class="form-select" id="sala">
+                      <option value="circo"> Circo abandonado </option>
+                      <option value="pitonisa"> La pitonisa </option>
+                      <option value="carcel"> Cadena perpetua </option>
+                    </select>
+                  </div>
+                </div>
+                <div class="row mb-3">
+                    <label for="participantes" class="col-sm-2 col-form-label"> Participantes: </label>
+                    <div class="col-sm-10">
+                      <select class="form-select" id="participantes">
+                        <option value="dos"> 2 jugadores </option>
+                        <option value="tres"> 3 jugadores </option>
+                        <option value="cuatro"> 4 jugadores </option>
+                        <option value="cinco"> 5 jugadores </option>
+                        <option value="seis"> 6 jugadores (Cargo adicional) </option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="row mb-3">
+                    <label for="motive" class="col-sm-2 col-form-label"> Motivo: </label>
+                    <div class="col-sm-10">
+                      <select class="form-select" id="motive">
+                        <option value="reserva"> Reservar sala </option>
+                        <option value="consulta"> Consulta sobre sala </option>
+                      </select>
+                    </div>
+                  </div>
+                <div class="form-floating mb-3">
+                  <textarea class="form-control" id="floatingTextarea2" style="height: 200px"></textarea>
+                  <label for="floatingTextarea2" class="text-dark">Comentarios adicionales.</label>
+                </div>
+                <button type="submit" class="btn btn-light">Enviar</button>
+              </form>
+         </div>  
+    </main>
+    <footer class="d-flex justify-content-evenly align-items-center bg-light">
+        <div>
+            <p class="pt-4 p-f">©2023<b>BESSE</b></p>
+        </div>
+        <div>
+            <a href="index.html">
+                <img src="../assets/svg/footer.svg" alt="logo">
+            </a>
+        </div>
+        <div class="d-flex">
+            <div>
+                <a href="https://www.facebook.com/" target="_blank">
+                    <img src="../assets/svg/facebook.svg" alt="logo facebook">
+                </a>
+            </div>
+            <div>
+                <a href="https://www.instagram.com/" target="_blank">
+                    <img src="../assets/svg/instagram.svg" alt="logo instagram">
+                </a>
+            </div>
+            <div>
+                <a href="https://twitter.com/" target="_blank">
+                    <img src="../assets/svg/twitter.svg" alt="logo twitter">
+                </a>
+            </div>
+        </div>
+    </footer>
+    <script src="../js/bootstrap.js"></script> 
+</body>
+</html>
