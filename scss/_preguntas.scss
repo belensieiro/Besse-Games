@@ -1,0 +1,19 @@
+.container-ask {
+    text-align: center;
+    background-color: $dark;
+    margin-bottom: 5em;
+
+    .title{
+        font-size: 4em;
+    }    
+}
+
+.link {
+    font-family: "Roboto Condensed", sans-serif;
+    text-decoration: none;
+    color: $principal;
+
+    &:hover {
+        color: $link;
+    }
+}

@@ -3,6 +3,7 @@ $principal: rgb(244, 89, 3);
 $fondo: linear-gradient(-60deg, #ff5858 0%, #f07a19 100%);
 $fondo-salas: linear-gradient(-60deg, #ff5858 0%, #b35508 100%);
 $preguntas: rgba(244, 87, 3, 0.822);
+$link: rgb(233, 143, 94);
 
 
 // variables de bs modificadas //
@@ -17,9 +18,9 @@ $danger: $principal;
 $accordion-bg: $light;
 $accordion-button-color: $light;
 $accordion-button-bg: $dark;
-$accordion-button-active-bg: $preguntas;
+$accordion-button-active-bg: $dark;
 $accordion-button-active-color: $light;
-$accordion-button-focus-border-color: $light;
+$accordion-button-focus-border-color: $preguntas;
 $accordion-button-focus-box-shadow: $preguntas;
 $accordion-icon-color: $light;
 $accordion-icon-active-color: $light;
