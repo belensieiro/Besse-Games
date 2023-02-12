@@ -2,6 +2,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
+.p, ul, .p-text {
+  font-family: "Poppins", sans-serif;
+}
+
+.p-f, h1, .h1, h2, .h2, h3, .h3, h5, .h5 {
+  font-family: "Bebas Neue", cursive;
+}
+
+.c-f, .formulario {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
 /*!
  * Bootstrap  v5.3.0-alpha1 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
@@ -11673,6 +11685,41 @@ textarea.form-control-lg {
   -ms-transform: translate(-50%, -50%);
   text-align: center;
   pointer-events: none;
+}
+
+.icon-bg {
+  background-color: rgba(244, 89, 3, 0.3);
+  border-radius: 1em;
+}
+
+.btn-information {
+  animation-name: wobble;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+@keyframes wobble {
+  0% {
+    transform: none;
+  }
+  15% {
+    transform: translate3d(-25%, 0, 0) rotate3d(0, 0, 1, -5deg);
+  }
+  30% {
+    transform: translate3d(20%, 0, 0) rotate3d(0, 0, 1, 3deg);
+  }
+  45% {
+    transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -3deg);
+  }
+  60% {
+    transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 2deg);
+  }
+  75% {
+    transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg);
+  }
+  100% {
+    transform: none;
+  }
 }
 
 /*# sourceMappingURL=custom.css.map */
