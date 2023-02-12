@@ -14,7 +14,6 @@ $light: white;
 $danger: $principal;
 
 // accordion //
-
 $accordion-bg: $light;
 $accordion-button-color: $light;
 $accordion-button-bg: $dark;
@@ -25,3 +24,8 @@ $accordion-button-focus-box-shadow: $preguntas;
 $accordion-icon-color: $light;
 $accordion-icon-active-color: $light;
 
+// form //
+$input-btn-focus-color: $principal;
+$form-select-color: $dark;
+$form-select-border-color: $light;
+$form-select-focus-border-color: $light;
