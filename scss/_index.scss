@@ -2,7 +2,7 @@
   font-family: "Bebas Neue", cursive;
 
     &:hover{
-      color: rgb(244, 89, 3);
+      color: $principal;
     }
 }
 
@@ -17,7 +17,7 @@
 }
 
 .b-bg {
-  background-image: linear-gradient(-60deg, #ff5858 0%, #f07a19 100%);
+  background-image: $fondo;
 
   .header-box {
     height: 100%;
