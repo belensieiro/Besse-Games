@@ -11650,4 +11650,29 @@ textarea.form-control-lg {
   height: 100%;
 }
 
+.container-img {
+  overflow: hidden;
+}
+.container-img:hover .container-text {
+  opacity: 1;
+}
+.container-img .img-card {
+  transition: transform 0.25s;
+}
+.container-img .img-card:hover {
+  transform: scale 1.1;
+  filter: brightness(0.1);
+}
+.container-img .container-text {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  pointer-events: none;
+}
+
 /*# sourceMappingURL=custom.css.map */

@@ -10,7 +10,7 @@
     font-family: "Bebas Neue", cursive;
     transition: all 1s ease;
 
-    &:hover{
+    &:hover {
       color: white;
       transform: scale(1.1);
     }
@@ -19,19 +19,48 @@
 .b-bg {
   background-image: linear-gradient(-60deg, #ff5858 0%, #f07a19 100%);
 
-  .header-box{
+  .header-box {
     height: 100%;
 
-    .banner-left{
+    .banner-left {
       display: flex;
       justify-content: center;
       align-items: center;
       padding: 0;
 
-      .img-left{
+      .img-left {
         width: 100%;
         height: 100%;
       }
     }
+  }
+}
+
+.container-img {
+  overflow: hidden;
+
+  &:hover .container-text{
+      opacity: 1;
+  }
+
+  .img-card {
+      transition: transform 0.25s;
+
+      &:hover {
+          transform: scale (1.1);
+          filter: brightness(0.1);
+      }
+  }
+
+  .container-text {
+      transition: 0.5s ease;
+      opacity: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      text-align: center;
+      pointer-events: none;
   }
 }
