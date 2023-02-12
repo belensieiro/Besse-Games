@@ -11,7 +11,7 @@
   transition: all 1s ease;
 
   &:hover {
-    color: white;
+    color: $light;
     transform: scale(1.1);
   }
 }
