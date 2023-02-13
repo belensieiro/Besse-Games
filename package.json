@@ -1,7 +1,7 @@
 {
   "name": "proyecto",
   "version": "1.0.0",
-  "description": "Besse Games | ©2023 BESSE (https://github.com/belensieiro)",
+  "description": "Besse Games | © 2023 BESSE (https://github.com/belensieiro)",
   "main": "index.js",
   "scripts": {
     "compile": "sass --watch scss:css"
