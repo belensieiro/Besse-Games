@@ -1,3 +1,7 @@
+.p-background {
+    @include img-background
+}
+
 .container-ask {
     text-align: center;
     background-color: $dark;
