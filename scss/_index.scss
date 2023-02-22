@@ -36,6 +36,10 @@
   }
 }
 
+.h1-index{
+  font-size: 50px;
+}
+
 .container-img {
   overflow: hidden;
 
@@ -52,7 +56,12 @@
       }
   }
 
-  .container-text {
+
+.sala-img {
+  overflow:hidden;
+}
+
+.container-text {
       transition: 0.5s ease;
       opacity: 0;
       position: absolute;
@@ -100,4 +109,8 @@
   100% {
     transform: none;
   }
+}
+
+.card-title {
+  font-size: 18px !important;
 }

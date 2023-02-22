@@ -11662,6 +11662,10 @@ textarea.form-control-lg {
   height: 100%;
 }
 
+.h1-index {
+  font-size: 50px;
+}
+
 .container-img {
   overflow: hidden;
 }
@@ -11674,6 +11678,9 @@ textarea.form-control-lg {
 .container-img .img-card:hover {
   transform: scale 1.1;
   filter: brightness(0.1);
+}
+.container-img .sala-img {
+  overflow: hidden;
 }
 .container-img .container-text {
   transition: 0.5s ease;
@@ -11721,6 +11728,10 @@ textarea.form-control-lg {
     transform: none;
   }
 }
+.card-title {
+  font-size: 18px !important;
+}
+
 .header-sala {
   display: flex;
   position: relative;
@@ -11806,6 +11817,10 @@ textarea.form-control-lg {
   font-size: 45px;
   margin-bottom: 60px;
   padding: 10px;
+}
+
+.p-contacto {
+  padding: 1.3rem 2rem;
 }
 
 /*# sourceMappingURL=custom.css.map */
