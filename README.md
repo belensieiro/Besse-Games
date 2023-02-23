@@ -26,7 +26,7 @@
     <li>SCSS</li>
 </ul>
 <p>Nota: Uso de framework <b>Bootstrap</b> en su versión v5.0</p>
-<p> - Requiere linkear con JavaScript. </p>
+<p> - Requiere ser linkeado con biblioteca JavaScript. </p>
 <p> - Requiere instalación de NodeJs. </p>
 
 <h2> Vista previa: </h2>
